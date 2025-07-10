@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "viaclient",
 	"version": "${version}",
-	"name": "viaclient",
-	"description": "A Test Mod",
+	"name": "Viaclient",
+	"description": "A modular hacking mod for Minecraft",
 	"authors": [
 		"Kyler"
 	],
@@ -13,9 +13,9 @@
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/viaclient/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
-		"main": [
+		"client": [
 			"via.client.Viaclient"
 		]
 	},
@@ -24,7 +24,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.6",
+		"minecraft": "~1.21.7",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
